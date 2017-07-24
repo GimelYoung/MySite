@@ -1,0 +1,22 @@
+.body {
+  background-color: #9bc53d;
+}
+
+.headerspace {
+  color: white;
+  background-color: #969b9d;
+  height: 30px;
+}
+
+.name {
+color: white;
+}
+
+.gdylogo {
+
+}
+
+.click {
+  position: fixed;
+  margin-top: 700px;
+}

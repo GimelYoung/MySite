@@ -1,0 +1,54 @@
+.body {
+  background-color: #9bc53d;
+}
+
+.main {
+  margin: auto;
+  width: 50%;
+}
+
+
+
+.name {
+  color: white;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.gydlogo {
+  width: 75%;
+  padding-top: 200px;
+  display: block;
+  margin: auto;
+}
+
+.click {
+  height: auto;
+  width: 75px;
+  margin: auto;
+  display: block;
+}
+
+.icons {
+  width: auto;
+  margin-left: 160px;
+}
+
+p {
+  padding-right: 5px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.glyphicon {
+  padding-right: 5px;
+}
+
+.copyright {
+  margin: auto;
+  width: 50%;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  padding-top: 100px;
+  display: block;
+}

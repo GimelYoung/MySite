@@ -1,0 +1,360 @@
+header {
+  background-color: white;
+}
+
+footer {
+  background-color: grey;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  word-spacing: 0px;
+  letter-spacing: 4px;
+  height: 125px;
+  padding-top: 5px;
+  line-height: 40px;
+}
+
+.title {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+   color: white;
+   font-family: Impact, Charcoal, sans-serif;
+   font-variant: small-caps;
+   font-size: 60px;
+   letter-spacing: 4px;
+   padding-top: 20px;
+}
+
+.menuarea {
+  visibility: collapse;
+  position: absolute;
+}
+
+.menuarea:active {
+  position: absolute;
+}
+
+.imenuicon {
+  float: right;
+  margin-top: -41px;
+}
+
+.imenuicon:active {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transition: transform .3s;
+  -webkit-transition: transform .3s;
+}
+
+.amenuicon {
+  visibility: collapse;
+  float: right;
+  margin-top: -41px;
+  margin-right: -50px;
+}
+
+.amenuicon:active {
+
+}
+
+.name {
+  font-size: 21px;
+}
+
+
+
+.intro {
+  font-size: 18px;
+  display: block;
+
+}
+
+.photo {
+  height: auto;
+  width: 320px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+@media only screen and (min-width: 480px) {
+    body {
+      height: auto;
+      width: 320px;
+    }
+    .section1 {
+      height: 40px;
+      width: auto;
+      padding: 50px 50px 0px 50px;
+    }
+    .section2 {
+      height: 400px;
+      width: auto;
+    }
+    .section3 {
+      height: 20px;
+      width: auto;
+    }
+    .gap {
+      height: 20px;
+    }
+    .section4 {
+      height: 20px;
+      width: auto;
+    }
+      .photo {
+      height: 500px;
+      width: auto;
+    }
+    .introimage {
+      height: auto;
+      width: 320px;
+      display: block;
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 480px) {
+    body {
+      height: auto;
+      width: 768px;
+    }
+    .section1 {
+      height: 100px;
+      width: auto;
+      padding: 50px 50px 0px 50px;
+    }
+    .section2 {
+      height: 660px;
+      width: auto;
+    }
+    .section3 {
+      height: 50px;
+      width: auto;
+    }
+    .gap {
+      height: 50px;
+    }
+    .section4 {
+      height: 50px;
+      width: auto;
+    }
+    .photo {
+      height: 660px;
+      width: auto;
+    }
+    .introimage {
+      height: auto;
+      width: 480px;
+      display: block;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    body {
+      height:auto;
+      width: auto;
+    }
+    .section1 {
+      height: 300px;
+      width: 100%;
+      background-color: white;
+      position: fixed;
+      z-index: 3;
+      padding: 50px 50px 0px 50px;
+    }
+    .section2 {
+      height: 660px;
+      width: 100%;
+    }
+    .section3 {
+      height: 150px;
+      width: 100%;
+      background-color: white;
+      position: fixed;
+      margin-top: 85px;
+      z-index: 3;
+    }
+    .section4 {
+      height: 150px;
+      width: 100%;
+      position: fixed;
+      margin-top: 245px;
+    }
+
+    .intro {
+      height: 895px;
+      padding-top: 300px;
+    }
+    .introimage {
+      height: auto;
+      width: 815px;
+      display: block;
+    }
+    .introtext {
+      width: 500px;
+    }
+    .gap1 {
+      height: 150px;
+      background-color: #03756f;
+    }
+    .websites {
+      background-color: #03756f;
+      height: 445px;
+      padding: 0px 100px;
+      margin-top: 0px;
+    }
+    .websitetext {
+      width: 500px;
+    }
+    .websiteimage {
+      height: auto;
+      width: 560px;
+    }
+    .gap2 {
+      height: 150px;
+      background-color: #f68c1f;
+    }
+    .graphics {
+      background-color: #f68c1f;
+      height: 445px;
+      padding: 0px 100px;
+      margin-top: 0px;
+    }
+    .graphictext {
+      width: 500px;
+    }
+    .graphicimage {
+      height: auto;
+      width: 380px;
+    }
+    .gap3 {
+      height: 150px;
+      background-color: #ef3824;
+    }
+    .print {
+      background-color: #ef3824;
+      height: 445px;
+      padding: 0px 100px;
+      margin-top: 0px;
+    }
+    .printtext {
+      width: 500px;
+    }
+    .printimage {
+      height: auto;
+      width: 800px;
+    }
+    .gap4 {
+      height: 150px;
+      background-color: #d81f26;
+    }
+    .misc {
+      background-color: #d81f26;
+      height: 445px;
+      padding: 0px 100px;
+      margin-top: 0px;
+
+    }
+    .misctext {
+      width: 500px;
+    }
+    .miscimage {
+      height: auto;
+      width: 735px;
+    }
+    .gap5 {
+      height: 150px;
+    }
+    .end {
+      background-color: #2c1126;
+      height: 110px;
+    }
+}
+
+.introtext {
+  float: right;
+}
+.introimage {
+  float: left;
+}
+.websitetext {
+  float: right;
+}
+.websiteimage {
+  float: left;
+}
+.graphictext {
+  float: left;
+}
+.graphicimage {
+  float: right;
+}
+.printtext {
+  float: right;
+}
+.printimage {
+  float: left;
+}
+.misctext {
+  float: left;
+}
+.miscimage {
+  float: right;
+}
+.linkedin {
+    height: 30px;
+    width: 30px;
+    background-image: url(Social_Media_Icons2.png);
+    background-position: -113px 28px;
+    margin-top: 10px;
+    margin-left: 60px;
+    padding: 0px 0px 20px 30px;
+}
+.facebook {
+    height: 30px;
+    width: 30px;
+    background-image: url(Social_Media_Icons2.png);
+    background-position: -10px 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px 0px 20px 30px;
+}
+.twitter {
+    height: 30px;
+    width: 30px;
+    background-image: url(Social_Media_Icons2.png);
+    background-position: -40px 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px 0px 20px 30px;
+}
+.google {
+    height: 30px;
+    width: 30px;
+    background-image: url(Social_Media_Icons2.png);
+    background-position: 15px 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px 0px 30px 55px;
+}
+.youtube {
+    height: 30px;
+    width: 30px;
+    background-image: url(Social_Media_Icons2.png);
+    background-position: -100px 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px 0px 20px 30px;
+}
+.github {
+    height: 30px;
+    width: 30px;
+    background-image: url(Social_Media_Icons2.png);
+    background-position: -3px -27px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0px 0px 20px 30px;
+}

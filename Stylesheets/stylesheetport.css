@@ -1,0 +1,202 @@
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+.break {
+	height: 100px;
+}
+
+.banner {
+	width: 102%;
+	height: auto;
+	margin-left: -1%;
+	margin-top: -1%;
+}
+
+.navigation {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    /* padding-right: 3px; */
+    padding-top: 2%;
+    /* border-radius: 5px; */
+    text-align: center;
+}
+
+.name_title {
+	/* padding-top: 100px;
+	padding-left: 20px */
+	width: 100%;
+}
+
+.portfolio {
+	padding-top: 3%;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+	box-shadow: 1px 1px 2px 2px;
+	margin: 1%;
+	color: black;
+}
+
+.promotional {
+	box-shadow: 1px 1px 2px 2px;
+	margin: 1%;
+	color: black;
+}
+.instructional {
+	box-shadow: 1px 1px 2px 2px;
+	margin: 1%;
+	color: black;
+}
+.business {
+	box-shadow: 1px 1px 2px 2px;
+	margin: 1%;
+	color: black;
+}
+.web {
+	box-shadow: 1px 1px 2px 2px;
+	margin: 1%;
+	color: black;
+}
+.miscproj {
+	box-shadow: 1px 1px 2px 2px;
+	margin: 1%;
+	color: black;
+}
+
+.namecontainer {
+	background-color: white;
+	width: 102%;
+	margin-top: -4px;
+	border-bottom: solid;
+	text-align: center;
+	height: auto;
+	margin-right: -8px;
+	margin-left: -8px;
+}
+
+.lastcell {
+	border-right: none;
+}
+
+.logo:hover {
+transform: scale(1.1);
+}
+
+.promotional:hover {
+	    transform: scale(1.1);
+}
+
+.instructional:hover {
+	    transform: scale(1.1);
+}
+
+.business:hover {
+    transform: scale(1.1);
+}
+
+.web:hover {
+    transform: scale(1.1);
+}
+
+.miscproj:hover {
+    transform: scale(1.1);
+}
+
+.body {
+	background: #2196F3;
+	width: 100vw;
+}
+
+.logo img {
+	height: 30px;
+	margin-top: 14px;
+}
+
+@media only screen and (min-width: 320px) {
+  body {
+    width: 320;
+  }
+	.section1 {
+		height: 60px;
+		width: 100%;
+		background-color: black;
+		position: fixed;
+		z-index: 3;
+		padding: 22px 20px 0px 20px;
+	}
+	.break {
+		height: 50px;
+	}
+  .imenuicon {
+    float: right;
+    margin-top: -31px;
+    width: 40px;
+  }
+  .imenuicon:active {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transition: transform .1s;
+    -webkit-transition: transform .1s;
+  }
+  .name {
+        font-size: 15px;
+        color: white;
+        font-family: Impact, Charcoal, sans-serif;
+        font-variant: small-caps;
+        letter-spacing: 2px;
+  }
+	.portfolio {
+		padding-top: 0px;
+	  margin: auto;
+	  width: 75%;
+	  text-align: center;
+		padding-top: 50px;
+		padding-bottom: 60px;
+	}
+
+	.web {
+		width: 320px;
+	}
+	.logo {
+		width: 320px;
+	}
+	.business {
+		width: 320px;
+	}
+	.instructional {
+		width: 320px;
+	}
+	.miscproj {
+		width: 320px;
+	}
+	.promotional {
+		width: 320px;
+	}
+}
+
+
+.copyright {
+  margin: auto;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  display: block;
+  min-width: 260px;
+}

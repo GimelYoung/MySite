@@ -1,17 +1,17 @@
 div {
-	/* width:100%; 
+	/* width:100%;
 	height: auto;
 	font-family: "Arial"; */
 }
 
 h1 {
-	font-family: "Arial"; 
+	font-family: "Arial";
 	text-align: center;
 }
 
 td {
 	font-family: "Arial";
-	font-size: 16px;	
+	font-size: 16px;
 }
 
 .banner {
@@ -29,7 +29,7 @@ td {
      clear: both;
      height: 0;
      }
-	 
+
 .clearfix { display: inline-block; }
 /* start commented backslash hack \*/
 * html .clearfix { height: 1%; }
@@ -165,7 +165,7 @@ td {
 	border-right: none;
 }
 
-.logos:hover { 
+.logos:hover {
 transform: scale(1.1);
 }
 
@@ -196,4 +196,14 @@ body {
 .logo img {
 	height: 30px;
 	margin-top: 14px;
+}
+
+.copyright {
+  margin: auto;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  display: block;
+  min-width: 260px;
 }
